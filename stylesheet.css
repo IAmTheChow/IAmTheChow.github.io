@@ -12,6 +12,7 @@ color: orange;
 padding-left: 5%;
 line-height: 400%;
 word-spacing: 20px;
+font-family: Arial;
      }
 a{
 	color: orange;
@@ -19,7 +20,6 @@ a{
  }
 a:hover{
 	color: #f5ce42;
-	counter-reset: all;
 }
 a:focus{
 	color: #f5ce42; 
