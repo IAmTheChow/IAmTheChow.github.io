@@ -15,6 +15,23 @@ word-spacing: 20px;
 font-family: calibri;
 font-size: 110%;
      }
+.coloumn {
+float: left;
+width: 50%;
+padding-top: 7%;
+font-family: calibri;
+}
+.top{
+overflow: hidden;
+position: fixed;
+margin: auto;
+color: orange;
+padding-left: 40%;
+font-family: calibri;
+font-size: 200%;
+line-height: 25%;
+}
+
 a{
 	color: orange;
 	text-decoration: none;
