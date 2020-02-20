@@ -1,6 +1,5 @@
 .menu {
 overflow: hidden;
-background-color: #191919;
 position: fixed;
 margin: auto;
 top: 0;
@@ -13,7 +12,29 @@ line-height: 350%;
 word-spacing: 20px;
 font-family: calibri;
 font-size: 110%;
-     }
+}
+.top{
+overflow: hidden;
+position: fixed;
+margin: auto;
+color: orange;
+font-family: calibri;
+font-size: 200%;
+line-height: 40%;
+left: 25%;
+top: 1%;
+}
+body,html{
+	height: 100%;
+	margin: 0;
+}
+.image{
+background-image: url(https://camphotography.net/wp-content/uploads/2019/09/138503.jpg);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 a{
 	color: orange;
 	text-decoration: none;

@@ -1,7 +1,6 @@
-
 .menu {
 overflow: hidden;
-background-color: #191919;
+background-color: #040024;
 position: fixed;
 margin: auto;
 top: 0;
@@ -14,23 +13,26 @@ line-height: 350%;
 word-spacing: 20px;
 font-family: calibri;
 font-size: 110%;
-     }
-.coloumn {
-float: left;
-width: 50%;
-padding-top: 7%;
-font-family: calibri;
 }
 .top{
 overflow: hidden;
 position: fixed;
 margin: auto;
 color: orange;
-padding-left: 40%;
 font-family: calibri;
 font-size: 200%;
 line-height: 25%;
+left: 25%;
 }
+.coloumn {
+float: left;
+width: 46%;
+padding-top: 7%;
+font-family: calibri;
+padding-left: 2%;
+padding-right: 2%;
+}
+
 
 a{
 	color: orange;
