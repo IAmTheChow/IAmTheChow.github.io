@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head class="header">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<div class="nav">
-		<p>
-			<a href="">About</a>
-			<select name="What's Wrong?" id="dropdown1">
-				<option><a href="">School Education</a></option>
-				<option><a href="">Computer Education</a></option>
-				<option><a href="">Countries Effects</a></option>
-			</select>
-			<a href="">Contact</a>
-			<a href="">Poor Education</a>
-		</p>
+		<span id="links">
+			<a href="Aboutpage.html">About</a>
+			<div class="dropdown">
+  			<button class="dropbtn">What's Wrong?</button>
+  				<div class="dropdown-content">
+    				<a href="Content1.html">School Education</a>
+    				<a href="Content2.html">IT Education</a>
+    				<a href="Content3.html">Countries Effects</a>
+ 				</div>
+			</div>
+			<a href="Contactpage.html">Contact</a>
+		</span>
+		<span class="title"><a href="index.html">Poor Education</a></span>
+		<span class="topnav">  
+  			<input type="text" placeholder="Search..">
+  		</span>
 	</div>
 </head>
 <body>
