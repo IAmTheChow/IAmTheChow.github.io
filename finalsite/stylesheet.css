@@ -5,6 +5,7 @@
   padding: 16px;
   font-size: 17px;
   border: none;
+  outline: none;
 }
 .dropbtn:hover /* When the dropdown is hovered over the text should turn black */
 {
@@ -141,8 +142,8 @@ Still need to test this code not sure if it works have no information in the sea
   left: 0;
   width: 100%;
   height: 10%;
-  background-color: white;
   position: fixed;
+  background-color: black;
 }
 .sources
 {
@@ -150,8 +151,8 @@ Still need to test this code not sure if it works have no information in the sea
   font-family: arial;
   font-size: 16px;
   float: left;
-  width: 200px;
-  padding-right: 600px;
+  width: 1000px;
+  padding-left: 20px;
 }
 
 .sources a
@@ -160,6 +161,9 @@ Still need to test this code not sure if it works have no information in the sea
   text-decoration: none;
   font-family: arial;
   font-size: 16px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 .media 
@@ -167,6 +171,7 @@ Still need to test this code not sure if it works have no information in the sea
   color: orange;
   font-family: arial;
   font-size: 16px;
+  float: left;
 }
 
 .media a
@@ -175,4 +180,11 @@ Still need to test this code not sure if it works have no information in the sea
   text-decoration: none;
   font-family: arial;
   font-size: 16px;
+  float: left;
 }
+
+.sourceN {
+  float: left;
+  padding-top: 20px;
+}
+
