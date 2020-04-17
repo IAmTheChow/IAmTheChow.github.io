@@ -173,7 +173,8 @@ Still need to test this code not sure if it works have no information in the sea
   color: orange;
   font-family: arial;
   font-size: 16px;
-  float: left;
+  float: right;
+  padding-right: 3%;
 }
 
 .media a
