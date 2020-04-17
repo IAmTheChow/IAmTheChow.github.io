@@ -53,16 +53,13 @@ color: black;
 
 .nav /* where the nav is located */
 {
-float:left;
-width:50%;
-padding-top: 20px;
+
 }
 
 .nav a /*The style of the links in .nav */
 {
   text-align: left;
   color: orange;
-  padding: 10%;
   text-decoration: none;
   font-family: arial;
   padding-top: 6px;
@@ -76,12 +73,11 @@ padding-top: 20px;
 
 .title a /*information on where the title is and the style that it uses */
 {
-  float:left;
+  vertical-align: center;
   color: orange;
   font-family: arial;
   text-decoration: none;
   font-size: 24px;
-  padding-right: 25%;
   padding-top: 32px;
 }
 
@@ -93,6 +89,8 @@ padding-top: 20px;
 .search /*organises where the search bar is and the background color */
 {
   padding-top: 28px;
+  float: right;
+  padding-right: 3%;
   background-color: #e5e5e5;
  }
 
