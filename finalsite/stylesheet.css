@@ -54,7 +54,7 @@ color: black;
 .nav /* where the nav is located */
 {
 float:left;
-width:45%;
+width:43%;
 padding-top: 20px;
 }
 
@@ -81,7 +81,7 @@ padding-top: 20px;
   font-family: arial;
   text-decoration: none;
   font-size: 24px;
-  padding-right: 30%;
+  padding-right: 25%;
   padding-top: 32px;
 }
 
