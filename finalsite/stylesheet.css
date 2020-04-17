@@ -53,7 +53,10 @@ color: black;
 
 .nav /* where the nav is located */
 {
-
+  float: left;
+  padding-left: 3%;
+  width: 40%;
+  padding-top: 2%;
 }
 
 .nav a /*The style of the links in .nav */
@@ -64,6 +67,7 @@ color: black;
   font-family: arial;
   padding-top: 6px;
   font-size: 17px;
+  padding: 3%;
 }
 
 .nav a:hover /*The links under .nav will change black when hovered over */
@@ -73,12 +77,12 @@ color: black;
 
 .title a /*information on where the title is and the style that it uses */
 {
-  vertical-align: center;
+  padding-top: 2.5%;
   color: orange;
+  float: left;
   font-family: arial;
   text-decoration: none;
   font-size: 24px;
-  padding-top: 32px;
 }
 
 .title a:hover /*the title will change to black when you hover over it */
@@ -88,10 +92,10 @@ color: black;
 
 .search /*organises where the search bar is and the background color */
 {
-  padding-top: 28px;
   float: right;
   padding-right: 3%;
   background-color: #e5e5e5;
+  padding-top: 2.5%;
  }
 
  input:focus, textarea:focus, select:focus /*gets rid of the highlight when you click on the search bar */
