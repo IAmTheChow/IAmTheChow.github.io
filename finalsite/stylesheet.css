@@ -290,6 +290,7 @@ Still need to test this code not sure if it works have no information in the sea
   width: 56%;
   position: fixed;
   padding-top: 7%;
+  padding-left: 1.5%;
   font-family: calibri;
   color: black;
   z-index: 2;
@@ -299,7 +300,6 @@ Still need to test this code not sure if it works have no information in the sea
 .coloumnA2 {
   float: left;
   position: relative;
-  width: 39%;
   padding-top: 5%;
   font-family: calibri;
   padding-left: 59%;
@@ -337,4 +337,50 @@ Still need to test this code not sure if it works have no information in the sea
 
 .P3{
   padding-top: 13%;
+}
+
+.coloumnC1 {
+  float: left;
+  width: 46%;
+  position: fixed;
+  padding-top: 7%;
+  font-family: calibri;
+  color: black;
+  z-index: 2;
+  padding-left: 1.5%;
+  margin: auto;
+}
+
+.coloumnC2 {
+  float: left;
+  position: relative;
+  padding-top: 7%;
+  font-family: calibri;
+  padding-left: 54%;
+  padding-right: 2%;
+  color: black;
+  z-index: 1;
+  margin: auto;
+}
+
+.contactUs{
+  padding-top: 5%;
+  padding-left: 15%;
+}
+.person1{
+  float: left;
+  padding-top: 25%;
+}
+
+.person2{
+  width: 20%;
+  float: left;
+  padding-top: 10%;
+
+}
+
+.person3{
+  width: 20%;
+  float: right;
+  padding-top: 10%;
 }
