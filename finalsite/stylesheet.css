@@ -418,7 +418,7 @@ color: black;
 
 .SFS{
   font-family: arial;
-  font-size: 18px;
+  font-size: 110%;
 }
 
 .LS{
@@ -432,8 +432,3 @@ color: black;
   color: grey;
 }
 
-@media (min-width: 1920px) {
-  .SFS{
-    font-size-adjust: all;
-  }
-}
