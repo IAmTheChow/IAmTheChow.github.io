@@ -192,11 +192,10 @@ Still need to test this code not sure if it works have no information in the sea
 
 .media 
 {
-  color: orange;
-  font-family: arial;
-  font-size: 16px;
   float: right;
-  padding-right: 3%;
+  padding-right: 2%;
+  padding-top: 1%;
+  width: 11%;
   position: relative;
   z-index: 4;
 }
@@ -208,6 +207,7 @@ Still need to test this code not sure if it works have no information in the sea
   font-family: arial;
   font-size: 16px;
   float: left;
+  padding: 4.5%;
 }
 
 .sourceN {
@@ -288,8 +288,8 @@ Still need to test this code not sure if it works have no information in the sea
   float: right;
   padding-top: 7%;
   color: black;
-  max-width: 40%;
-  padding-right: 5%;
+  max-width: 33%;
+  padding-right: 3%;
   font-family: arial;
 }
 
