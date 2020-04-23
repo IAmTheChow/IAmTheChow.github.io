@@ -7,7 +7,7 @@
   border: none;
   outline: none;
   position: relative;
-  z-index: 3;
+  z-index: 7;
 }
 .dropbtn:hover /* When the dropdown is hovered over the text should turn black */
 {
@@ -18,7 +18,8 @@ color: black;
 {
   position: relative;
   display: inline-block;
-  z-index: 3;
+  z-index: 7;
+
 }
 
 
@@ -29,6 +30,7 @@ color: black;
   background-color: #f1f1f1;
   min-width: 170px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 7;
 }
 
 .dropdown-content a /* What styles the text in the content of the dropdown is */
@@ -183,6 +185,11 @@ Still need to test this code not sure if it works have no information in the sea
   padding-left: 10px;
 }
 
+.sources a:hover{
+  color: white;
+}
+
+
 .media 
 {
   color: orange;
@@ -209,6 +216,7 @@ Still need to test this code not sure if it works have no information in the sea
   position: relative;
   z-index: 4;
 }
+
 
 .slideshow-container {
   padding-top: 7%;
@@ -287,9 +295,9 @@ Still need to test this code not sure if it works have no information in the sea
 
 .coloumnA1 {
   float: left;
-  width: 56%;
+  width: 52%;
   position: fixed;
-  padding-top: 7%;
+  padding-top: 8%;
   padding-left: 1.5%;
   font-family: calibri;
   color: black;
@@ -300,7 +308,7 @@ Still need to test this code not sure if it works have no information in the sea
 .coloumnA2 {
   float: left;
   position: relative;
-  padding-top: 5%;
+  padding-top: 4.75%;
   font-family: calibri;
   padding-left: 59%;
   padding-right: 2%;
@@ -331,12 +339,20 @@ Still need to test this code not sure if it works have no information in the sea
   font-family: arial;
 }
 
+.P1{
+  font-family: arial;
+  font-size: 18px;
+}
 .P2{
-  padding-top: 11%;
+  padding-top: 1%;
+  font-family: arial;
+  font-size: 18px;
 }
 
 .P3{
-  padding-top: 13%;
+  padding-top: 1%;
+  font-family: arial;
+  font-size: 18px;
 }
 
 .coloumnC1 {
@@ -354,7 +370,7 @@ Still need to test this code not sure if it works have no information in the sea
 .coloumnC2 {
   float: left;
   position: relative;
-  padding-top: 7%;
+  padding-top: 5%;
   font-family: calibri;
   padding-left: 54%;
   padding-right: 2%;
@@ -364,23 +380,56 @@ Still need to test this code not sure if it works have no information in the sea
 }
 
 .contactUs{
-  padding-top: 5%;
-  padding-left: 15%;
+  padding-top: 10%;
+  padding-left: 45%;
+  font-family: arial;
 }
 .person1{
   float: left;
-  padding-top: 25%;
+  padding-top: 29%;
+  width: 110%;
+  padding-left: 28%;
 }
 
 .person2{
-  width: 20%;
+  width: 45%;
   float: left;
-  padding-top: 10%;
-
+  padding-left: 15%;
+  padding-top: 8%;
+  padding-bottom: 7%;
+  position: relative;
+  z-index: 2;
 }
 
 .person3{
-  width: 20%;
+  width: 45%;
   float: right;
-  padding-top: 10%;
+  padding-right: 15%;
+  padding-top: 8%;
+  padding-bottom: 7%;
+  position: relative;
+  z-index: 2;
+}
+
+.fax{
+  padding-top: 2%;
+  width: 88%;
+  padding-left: 13%;
+  position: relative;
+}
+
+.SFS{
+  font-family: arial;
+  font-size: 18px;
+}
+
+.LS{
+  font-family: arial;
+  font-size: 18px;
+  text-decoration: none;
+  color: orange;
+}
+
+.LS:hover{
+  color: grey;
 }
