@@ -13,7 +13,7 @@
 }
 
 .about{ /*the dimensions and position of the box with the text "about" inside*/
-	width: 14%;
+	width: 12%;
 	float: left;
 	height: 100%;
 }
@@ -21,23 +21,22 @@
 .about a{ /*the position and style of the text "about" inside of the about box*/
 	color: orange;
 	text-decoration: none;
-	margin-left: 35%;
-	margin-top: 17%;
+	margin-left: 50%;
+	margin-top: 20.5%;
 	float: left;
 	font-size: 22px;
 	font-family: arial;
 }
 
 .contact{ /*just like the about box just helps with dimensions*/
-	width: 14%;
+	width: 12%;
 	float: left;
 	height: 100%;
 }
 .contact a { /*once again styles the "contact" text and positions it inside the box*/
 	color: orange;
 	text-decoration: none;
-	margin-left: 35%;
-	margin-top: 17%;
+	margin-top: 20.5%;
 	float: left;
 	font-size: 22px;
 	font-family: arial;
@@ -54,11 +53,10 @@
 	font-size: 28px;
 	font-family: arial;
 	margin-top: 7%;
-	margin-left: 5%;
 }
 
 .searchB{ /*the box for positioning the seach bar, gonna change the search bar eventually though so may seem redundant at the moment*/
-	width: 28%;
+	width: 22%;
 	float: left;
 	height: 100%;
 }
@@ -66,7 +64,7 @@
 .search{ /*positions the search bar inside the box for the search bar*/
 	margin-top: 7%;
 	float: left;
-	padding-left: 30%;
+	padding-left: 10%;
 }
 
  input:focus, textarea:focus, select:focus{ /*gets rid of the highlight when you click on the search bar */
@@ -102,7 +100,7 @@
 }
 
 .drop{ /*positioning of the dropdown like the previous "about" and "contact" boxes*/
-	width: 14%;
+	width: 20%;
 	float: left;
 	height: 100%;
 }
@@ -118,7 +116,7 @@
 .dropdown{ /*positions the dropdown inside of the box made for it*/
 	float: left;
 	margin-left: 12%;
-	margin-top: 10%;
+	margin-top: 7%;
 }
 .dropbtn:hover{ /* When the dropdown is hovered over the text should turn black */
 color: black;
