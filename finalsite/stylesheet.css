@@ -116,7 +116,7 @@
 .dropdown{ /*positions the dropdown inside of the box made for it*/
 	float: left;
 	margin-left: 12%;
-	margin-top: 7%;
+	margin-top: 6%;
 }
 .dropbtn:hover{ /* When the dropdown is hovered over the text should turn black */
 color: black;
@@ -153,7 +153,7 @@ color: black;
 }
 
 .sources{ /*the box that hold the information on the sources*/
-	width: 50%;
+	width: 90%;
 	float: left;
 	height: 100%;
 	background-color: black;
@@ -161,7 +161,7 @@ color: black;
 
 .sources p{ /*the style and positioning of the "links to resources" text*/
 	margin-left: 3%;
-	margin-top: 6%;
+	margin-top: 3%;
 	color: orange;
 	font-family: arial;
 	font-size: 20px;
@@ -183,14 +183,31 @@ color: black;
 	height: 100%;
 	background-color: black;
 	float: left;
-	width: 50%;
+	width: 10%;
 }
 
-.media a{ /*positioning for the links to the images*/
-	margin-top: 5%;
-	float: right;
-	margin-right: 3%;
-	text-decoration: none;
+.media a{ /*all of the links in the media box will be positioned by this tag*/
+	float: left;
+	padding-top: 100%;
+}
+
+.second{ /*the images that appear when hovered over will appear here*/
+	float: left;
+	padding-top: 100%;
+}
+.change { /*this is the name for the first image, tell whether it should be displayed*/
+    position: relative;
+    display: inline-block;
+}
+.change .second { /*tell where both the first and second image should be displayed including vertically*/
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+
+.change:hover .second { /*when the first image is hovered over the second image will appear*/
+    display: inline;
 }
 
 .slideshow-container{ /*the container for the slideshow, positioning and size*/
@@ -258,7 +275,7 @@ color: black;
 	font-size: 20px;
 }
 
-.coloumnA1{
+.coloumn1{ /*the coloumn that will store the image and caption on the left in the about page, dimensions and such*/
 	width: 50%;
 	padding-left: 1.25%;
 	float: left;
@@ -268,7 +285,7 @@ color: black;
 	font-size: 16.5px;
 }
 
-.coloumnA2{
+.coloumn2{ /*the coloumn next to the other coloumn on the about page, dimensions and such*/
 	width: 48%;
 	padding-top: 4%;
 	height: 100%;
@@ -277,7 +294,7 @@ color: black;
 	float: left;
 }
 
-.row{
+.row{ /*the rows for the images and text on the first content page*/
 	width: 98%;
 	height: 20%;
 	padding-left: 1%;
@@ -287,11 +304,71 @@ color: black;
 	font-size: 18px;
 }
 
-.coloumn{
+.coloumn{ /*the coloumns for the images and text on the first content page*/
 	width: 20%;
 	float: left;
 	height: 20%;
 	float: left;
 	padding-right: 2%;
 }
+
+.extra{ /*the color of the link after the text*/
+	color: orange;
+	text-decoration: none;
+}
+
+.extra:hover{ /*when hovered over the link will turn black*/
+	color: black;
+}
+
+.contactT{ /*the positioning, size and style of the contact title*/
+	width: 20%;
+	height: 50%;
+	float: left;
+	padding-left: 15%;
+	padding-top: 11%;
+	font-family: arial;
+}
+
+.fax{ /*the positioning, size and style of the text detailing how to contact us*/
+	float: left;
+	width: 55%;
+	height: 50%;
+	padding-top: 10%;
+	padding-left: 8%;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.people{ /*positions all of the images*/
+	padding-top: 4%;
+	float: left;
+}
+
+.person1{ /*gives dimensions for the first persons box*/
+	width: 33%;
+	float: left; 
+}
+
+.person1 img{ /*positions the image inside of the box*/
+	padding-left: 50%;
+}
+
+.person2{ /*gives dimensions for the second persons box*/
+	width: 33%;
+	float: left;
+}
+
+.person2 img{ /*positions the image inside of the box*/
+	padding-left: 25%;
+}
+
+.person3{ /*gives dimensions for the second persons box*/
+	width: 33%;
+	float: left;
+}
+
+
+
+
 
