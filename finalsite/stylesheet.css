@@ -64,7 +64,7 @@
 .search{ /*positions the search bar inside the box for the search bar*/
 	margin-top: 7%;
 	float: left;
-	padding-left: 10%;
+	padding-left: 20%;
 }
 
  input:focus, textarea:focus, select:focus{ /*gets rid of the highlight when you click on the search bar */
@@ -188,12 +188,12 @@ color: black;
 
 .media a{ /*all of the links in the media box will be positioned by this tag*/
 	float: left;
-	padding-top: 100%;
+	padding-top: 110%;
 }
 
 .second{ /*the images that appear when hovered over will appear here*/
 	float: left;
-	padding-top: 100%;
+	padding-top: 110%;
 }
 .change { /*this is the name for the first image, tell whether it should be displayed*/
     position: relative;
