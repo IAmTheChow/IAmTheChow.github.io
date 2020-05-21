@@ -42,7 +42,7 @@
 	font-family: arial;
 }
 .title{ /*exact same thing as the previous two except this time it is larger for the title*/
-	width: 30%;
+	width: 15%;
 	float: left;
 	height: 100%;
 }
@@ -52,51 +52,19 @@
 	float: left;
 	font-size: 28px;
 	font-family: arial;
-	margin-top: 7%;
+	margin-top: 13%;
 }
 
 .searchB{ /*the box for positioning the seach bar, gonna change the search bar eventually though so may seem redundant at the moment*/
-	width: 22%;
 	float: left;
+	width: 36%;
+	padding-top: 1%;
+	padding-left: 3%;
 	height: 100%;
 }
 
-.search{ /*positions the search bar inside the box for the search bar*/
-	margin-top: 7%;
-	float: left;
-	padding-left: 20%;
-}
-
- input:focus, textarea:focus, select:focus{ /*gets rid of the highlight when you click on the search bar */
-  outline: none;
-}
-
-.search a{ /*edits the text in the seach bar */
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 19px;
-}
-
- .search a:hover{ /*this line of code and the next both need to be tested, the search bar is still under heavy development*/
-  background-color: #ddd;
-  color: orange;
-}
-
-.search a.active{ /*mentioned above*/
-  background-color: #2196F3;
-  color: white;
-}
-
-
-.search input[type=text]{ /*What the style of the text the user types will be */
-  border:solid;
-  color: orange;
-  padding: 6px;
-  font-size: 19px;
+.gcse-search{
+	z-index: 99;
 }
 
 .drop{ /*positioning of the dropdown like the previous "about" and "contact" boxes*/
